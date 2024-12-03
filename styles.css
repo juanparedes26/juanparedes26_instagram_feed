@@ -1,32 +1,30 @@
 
-
-.padre{
+.padre {
     display: block;
-   
 }
 
-
-.Encabezado{
-    border: 1px dashed red; 
+.Encabezado {
+    /*border: 1px dashed red;*/
     width: 100%;
     height: 30%;
     text-align: center;
+}
 
+.Encabezado h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.Encabezado h1{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.feed{
+
+.feed {
     display: block;
-   border: 1px dashed red;
+     /*border: 1px dashed red;*/
     width: auto;
     height: auto;
     margin-top: 4px;
     background-color: whitesmoke;
-
 }
-.first{
-    border: 1px dashed blue;
+
+.first, .second, .third {
+    /*border: 1px dashed blue;*/
     width: 500px;
     height: 400px;
     margin: auto;
@@ -34,229 +32,77 @@
     display: block;
     background-color: white;
 }
-.Titulofirst{
-    border: 1px dashed green; 
+
+/* Títulos */
+.Titulofirst, .Titulosecond, .Titulothird {
+    /*border: 1px dashed green;*/
     width: 495px;
     height: 30px;
     margin: 3px auto;
     padding: 0;
-    display:flex;
-    position:relative;
+    display: flex;
+    position: relative;
+}
 
-}  
-.fecha{
-    border: 1px dashed blueviolet;
+.Titulofirst h1, .Titulosecond h1, .Titulothird h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Fechas */
+.fecha, .fecha2, .fecha3 {
+    /*border: 1px dashed blueviolet;*/
     width: 22px;
     height: 15px;
     margin: 3px auto;
     padding: 0;
-    position:absolute;
+    position: absolute;
     right: 0;
 }
-.fecha p{
-    margin: 0; 
+
+.fecha p, .fecha2 p, .fecha3 p {
+    margin: 0;
     padding: 0;
-    font-size: 10px; 
-    text-align: right; 
+    font-size: 10px;
+    text-align: right;
     opacity: 0.6;
 }
-
-.Titulofirst h1 {
-    margin: 0; 
-    padding: 0;
-    font-size: 18px; 
-    text-align: left; 
-}
-.Imagenfirst{
-    border: 1px dashed purple;
+.Imagenfirst, .Imagensecond, .Imagenthird {
+    /*border: 1px dashed purple;*/
     width: 490px;
     height: 290px;
     margin: 1px auto;
-    padding: 0;
-    display:flex;
-  
+    padding: 5px; 
+    display: flex;
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
-.Imagenfirst img {
-    width: 100%; 
-    height: 100%; 
-    object-fit:cover;
-  
-}
-.descripcion1{
-    border: 1px dashed rgb(128, 58, 0);
-     width: 490px;
-     height: 60px;
-     margin: 1px auto;
-     padding: 0;
-}
-.descripcion1 p{
-    margin: 0; 
-    padding: 0;
-    font-size: 15px; 
-    text-align: left; 
-    font-family: 'Times New Roman', Times, serif;
 
+.Imagenfirst img, .Imagensecond img, .Imagenthird img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px; 
 }
 
 
-
-
-
-
-
-.second{
-    border: 1px dashed blue;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    margin-top: 50px;
-    display: block;
-    background-color: white;
-}
-.Titulosecond{
-    border: 1px dashed green; 
-    width: 495px;
-    height: 30px;
-    margin: 3px auto;
-    padding: 0;
-    display:flex;
-    position:relative;
-
-}  
-.fecha2{
-    border: 1px dashed blueviolet;
-    width: 22px;
-    height: 15px;
-    margin: 3px auto;
-    padding: 0;
-    position:absolute;
-    right: 0;
-}
-.fecha2 p{
-    margin: 0; 
-    padding: 0;
-    font-size: 10px; 
-    text-align: right; 
-    opacity: 0.6;
-}
-
-.Titulosecond h1 {
-    margin: 0; 
-    padding: 0;
-    font-size: 18px; 
-    text-align: left; 
-}
-.Imagensecond{
-    border: 1px dashed purple;
+.descripcion1, .descripcion2, .descripcion3 {
+    /*border: 1px dashed rgb(128, 58, 0);*/
     width: 490px;
-    height: 290px;
+    height: 60px;
     margin: 1px auto;
     padding: 0;
-    display:flex;
-  
 }
-.Imagensecond img {
-    width: 100%; 
-    height: 100%; 
-    object-fit:cover; 
-  
-}
-.descripcion2{
-    border: 1px dashed rgb(128, 58, 0);
-     width: 490px;
-     height: 60px;
-     margin: 1px auto;
-     padding: 0;
-}
-.descripcion2 p{
-    margin: 0; 
+
+.descripcion1 p, .descripcion2 p, .descripcion3 p {
+    margin: 0;
     padding: 0;
-    font-size: 15px; 
-    text-align: left; 
+    font-size: 15px;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
-
 }
-
-
-
-
-
-
-
-
-.third{
-    border: 1px dashed blue;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    margin-top: 50px;
-    display: block;
-    background-color: white;
-}
-.Titulothird{
-    border: 1px dashed green; 
-    width: 495px;
-    height: 30px;
-    margin: 3px auto;
-    padding: 0;
-    display:flex;
-    position:relative;
-
-}  
-.fecha3{
-    border: 1px dashed blueviolet;
-    width: 22px;
-    height: 15px;
-    margin: 3px auto;
-    padding: 0;
-    position:absolute;
-    right: 0;
-}
-.fecha3 p{
-    margin: 0; 
-    padding: 0;
-    font-size: 10px; 
-    text-align: right; 
-    opacity: 0.6;
-}
-
-.Titulothird h1 {
-    margin: 0; 
-    padding: 0;
-    font-size: 18px; 
-    text-align: left; 
-}
-.Imagenthird{
-    border: 1px dashed purple;
-    width: 490px;
-    height: 290px;
-    margin: 1px auto;
-    padding: 0;
-    display:flex;
-  
-}
-.Imagenthird img {
-    width: 100%; 
-    height: 100%; 
-    object-fit:cover; 
-  
-}
-.descripcion3{
-    border: 1px dashed rgb(128, 58, 0);
-     width: 490px;
-     height: 60px;
-     margin: 1px auto;
-     padding: 0;
-}
-.descripcion3 p{
-    margin: 0; 
-    padding: 0;
-    font-size: 15px; 
-    text-align: left; 
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
 
 
 
