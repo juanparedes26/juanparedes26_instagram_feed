@@ -19,8 +19,8 @@
 .feed{
     display: block;
    border: 1px dashed red;
-    width: 1332px;
-    height: 1000px;
+    width: auto;
+    height: auto;
     margin-top: 4px;
     background-color: whitesmoke;
 
@@ -79,7 +79,7 @@
 .Imagenfirst img {
     width: 100%; 
     height: 100%; 
-    object-fit:cover; 
+    object-fit:cover;
   
 }
 .descripcion1{
@@ -98,6 +98,177 @@
 
 }
 
+
+
+
+
+
+
+.second{
+    border: 1px dashed blue;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    background-color: white;
+}
+.Titulosecond{
+    border: 1px dashed green; 
+    width: 495px;
+    height: 30px;
+    margin: 3px auto;
+    padding: 0;
+    display:flex;
+    position:relative;
+
+}  
+.fecha2{
+    border: 1px dashed blueviolet;
+    width: 22px;
+    height: 15px;
+    margin: 3px auto;
+    padding: 0;
+    position:absolute;
+    right: 0;
+}
+.fecha2 p{
+    margin: 0; 
+    padding: 0;
+    font-size: 10px; 
+    text-align: right; 
+    opacity: 0.6;
+}
+
+.Titulosecond h1 {
+    margin: 0; 
+    padding: 0;
+    font-size: 18px; 
+    text-align: left; 
+}
+.Imagensecond{
+    border: 1px dashed purple;
+    width: 490px;
+    height: 290px;
+    margin: 1px auto;
+    padding: 0;
+    display:flex;
+  
+}
+.Imagensecond img {
+    width: 100%; 
+    height: 100%; 
+    object-fit:cover; 
+  
+}
+.descripcion2{
+    border: 1px dashed rgb(128, 58, 0);
+     width: 490px;
+     height: 60px;
+     margin: 1px auto;
+     padding: 0;
+}
+.descripcion2 p{
+    margin: 0; 
+    padding: 0;
+    font-size: 15px; 
+    text-align: left; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
+.third{
+    border: 1px dashed blue;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    background-color: white;
+}
+.Titulothird{
+    border: 1px dashed green; 
+    width: 495px;
+    height: 30px;
+    margin: 3px auto;
+    padding: 0;
+    display:flex;
+    position:relative;
+
+}  
+.fecha3{
+    border: 1px dashed blueviolet;
+    width: 22px;
+    height: 15px;
+    margin: 3px auto;
+    padding: 0;
+    position:absolute;
+    right: 0;
+}
+.fecha3 p{
+    margin: 0; 
+    padding: 0;
+    font-size: 10px; 
+    text-align: right; 
+    opacity: 0.6;
+}
+
+.Titulothird h1 {
+    margin: 0; 
+    padding: 0;
+    font-size: 18px; 
+    text-align: left; 
+}
+.Imagenthird{
+    border: 1px dashed purple;
+    width: 490px;
+    height: 290px;
+    margin: 1px auto;
+    padding: 0;
+    display:flex;
+  
+}
+.Imagenthird img {
+    width: 100%; 
+    height: 100%; 
+    object-fit:cover; 
+  
+}
+.descripcion3{
+    border: 1px dashed rgb(128, 58, 0);
+     width: 490px;
+     height: 60px;
+     margin: 1px auto;
+     padding: 0;
+}
+.descripcion3 p{
+    margin: 0; 
+    padding: 0;
+    font-size: 15px; 
+    text-align: left; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   
    
    
   
